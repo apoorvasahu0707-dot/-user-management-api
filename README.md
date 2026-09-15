@@ -43,7 +43,8 @@ The API starts on https://localhost:5001 (see launchSettings.json). Swagger UI i
 # Authentication
 All endpoints require a valid API key sent in the x-api-key header.
 
-X-Api-Key: mysecretkey123
+X-Api-Key: mysecretkey123.
+
  Requests without a valid key receive 401 Unauthorized.
 
 # API Endpoints
